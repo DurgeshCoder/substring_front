@@ -1,0 +1,74 @@
+[
+    {
+        "id": "lcwd-youtube",
+        "platform": "YouTube",
+        "name": "Learn Code With Durgesh",
+        "count": "350K+",
+        "label": "Subscribers",
+        "link": "https://youtube.com/learncodewithdurgesh",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/10",
+        "borderColor": "border-red-500/20",
+        "icon": "Youtube"
+    },
+    {
+        "id": "durgesh-insta",
+        "platform": "Instagram",
+        "name": "durgesh_k_t",
+        "count": "40K+",
+        "label": "Followers",
+        "link": "https://instagram.com/durgesh_k_t",
+        "color": "text-pink-500",
+        "bgColor": "bg-pink-500/10",
+        "borderColor": "border-pink-500/20",
+        "icon": "Instagram"
+    },
+    {
+        "id": "lcwd-telegram",
+        "platform": "Telegram",
+        "name": "Learn Code With Durgesh",
+        "count": "25K+",
+        "label": "Subscribers",
+        "link": "https://t.me/learncodewithdurgesh",
+        "color": "text-blue-500",
+        "bgColor": "bg-blue-500/10",
+        "borderColor": "border-blue-500/20",
+        "icon": "Send"
+    },
+    {
+        "id": "durgesh-linkedin",
+        "platform": "LinkedIn",
+        "name": "Durgesh Kumar Tiwari",
+        "count": "10K+",
+        "label": "Followers",
+        "link": "https://www.linkedin.com/in/durgeshkumartiwari/",
+        "color": "text-blue-600",
+        "bgColor": "bg-blue-600/10",
+        "borderColor": "border-blue-600/20",
+        "icon": "Linkedin"
+    },
+    {
+        "id": "script-style-youtube",
+        "platform": "YouTube",
+        "name": "The Script Style",
+        "count": "2K+",
+        "label": "Subscribers",
+        "link": "https://www.youtube.com/@TheScriptStyle",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/10",
+        "borderColor": "border-red-500/20",
+        "icon": "Youtube"
+    },
+    {
+        "id": "script-style-insta",
+        "platform": "Instagram",
+        "name": "The Script Style",
+        "count": "20K+",
+        "label": "Followers",
+        "link": "https://www.instagram.com/thescriptstyle",
+        "color": "text-pink-500",
+        "bgColor": "bg-pink-500/10",
+        "borderColor": "border-pink-500/20",
+        "icon": "Instagram"
+    }
+]

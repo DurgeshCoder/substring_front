@@ -1,0 +1,41 @@
+[
+    {
+        "id": "video-editor",
+        "title": "Video Editor",
+        "type": "Part-time / Contract",
+        "location": "Remote/Onsite",
+        "description": "We need a creative Video Editor to produce engaging educational content and promotional videos for our YouTube channel and social media.",
+        "requirements": [
+            "Proficiency in video editing software (Premiere Pro, Final Cut, etc.)",
+            "Experience with motion graphics and visual effects",
+            "Ability to tell a story through video",
+            "Portfolio of previous work"
+        ]
+    },
+    {
+        "id": "frontend-dev",
+        "title": "Frontend Developer",
+        "type": "Full-time",
+        "location": "Remote/Onsite",
+        "description": "We are looking for a skilled Frontend Developer with experience in React, Next.js, and Tailwind CSS to build beautiful, responsive user interfaces.",
+        "requirements": [
+            "Proficiency in React.js and Next.js",
+            "Strong understanding of HTML, CSS, and JavaScript",
+            "Experience with Tailwind CSS",
+            "Knowledge of responsive design principles"
+        ]
+    },
+    {
+        "id": "backend-dev",
+        "title": "Backend Developer",
+        "type": "Full-time",
+        "location": "Remote/Onsite",
+        "description": "Join our team as a Backend Developer to design and implement robust APIs and microservices using Java and Spring Boot.",
+        "requirements": [
+            "Strong knowledge of Java and Spring Boot",
+            "Experience with RESTful APIs",
+            "Familiarity with database design (SQL/NoSQL)",
+            "Understanding of microservices architecture"
+        ]
+    }
+]

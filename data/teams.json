@@ -1,0 +1,30 @@
+[
+    {
+        "id": "durgesh-tiwari",
+        "name": "Durgesh Tiwari",
+        "role": "CEO",
+        "image": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Durgesh",
+        "bio": "Leading the vision and strategy."
+    },
+    {
+        "id": "mp-tiwari",
+        "name": "M P Tiwari",
+        "role": "Director",
+        "image": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Tiwari",
+        "bio": "Guiding operational excellence."
+    },
+    {
+        "id": "shruti-dixit",
+        "name": "Shruti Dixit",
+        "role": "Developer",
+        "image": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Shruti",
+        "bio": "Building robust solutions."
+    },
+    {
+        "id": "ranjana-chaurasiya",
+        "name": "Ranjana Chaurasiya",
+        "role": "Content Team Head",
+        "image": "https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Ranjana",
+        "bio": "Curating world-class learning content."
+    }
+]

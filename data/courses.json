@@ -1,0 +1,227 @@
+[
+    {
+        "id": 2,
+        "title": "AI-Powered Java Backend Batch",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "Java",
+            "Spring Boot",
+            "Generative AI",
+            "Spring AI"
+        ],
+        "description": "Cover core java revision, servlet, filters, spring framework, spring boot, generative ai, agentic ai, spring ai and 4 projects.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/AI-Powered-Java-Backend-Batch",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/245607/new_live_batch_lyst1761413867354.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 3,
+        "title": "WebX Batch",
+        "category": "Full Stack",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "HTML",
+            "CSS",
+            "React",
+            "Appwrite",
+            "Strapi",
+            "AI Integration"
+        ],
+        "description": "Learn HTML, CSS, React, Appwrite, Strapi & AI Integration and deployment by building 8 real-world projects.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/WebX-Batch",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/243055/full_frontend_course_lyst1758542583898.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 1,
+        "title": "Master Spring Boot with Real time Project",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "Spring Boot",
+            "Microservices",
+            "REST APIs",
+            "Security"
+        ],
+        "description": "Master Spring Boot through this course and build powerful microservices and web apps with ease!",
+        "link": "https://courses.learncodewithdurgesh.com/learn/Master-Spring-Boot-With-Project",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/137999/1721323128317Master_Spring_Boot__2__lyst1721323128333.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 4,
+        "title": "Spring AI",
+        "category": "Backend",
+        "duration": "Free",
+        "type": "Online",
+        "topics": [
+            "Spring AI",
+            "OpenAI",
+            "RAG",
+            "Chatbots"
+        ],
+        "description": "Learn how to integrate Artificial Intelligence, LLMs, and Generative AI into your Spring Boot applications.",
+        "link": "https://www.youtube.com/playlist?list=PL0zysOflRCen1TeDUm-ebl9T-WbJygCGE",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+        "id": 5,
+        "title": "BackendX Batch",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "Java",
+            "Spring Boot",
+            "Microservices",
+            "Kafka",
+            "Kubernetes"
+        ],
+        "description": "Complete Java backend program that covers Spring, Spring Boot, Microservices, Event-Driven Microservices (Kafka & RabbitMQ), OAuth, Kubernetes, Docker & Deployment.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/backendX-complete-java-backend",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/224271/BackendX_batch_lyst1763124080019.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 6,
+        "title": "Code NGX Batch",
+        "category": "Frontend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "Angular",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "description": "Master Angular from scratch! Includes HTML, CSS & JS revision, in-depth Angular concepts, hands-on coding, and a major project.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/CODE-NGX-Live-Angular-Batch",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/227864/CodeNGX_Live_batch_lyst1763124713462.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 7,
+        "title": "Java Foundation & Logic Building",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Java",
+            "Variables",
+            "Loops",
+            "OOPs"
+        ],
+        "description": "Beginner-friendly classroom course covering the basics of Java programming alongside essential problem-solving skills.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+        "id": 14,
+        "title": "Master Java Fundamentals With Logic Building",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "DSA",
+            "Arrays",
+            "Trees",
+            "Graphs"
+        ],
+        "description": "This beginner-friendly course covers the basics of Java programming alongside essential problem-solving skills.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/java-foundation",
+        "image": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/138713/1717083746993Core_java_course_lyst1717083747008.png?w=334&h=188&resizetype=fill"
+    },
+    {
+        "id": 8,
+        "title": "Python Foundation",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Python",
+            "Variables",
+            "Loops",
+            "OOPs"
+        ],
+        "description": "Start your coding journey with Python. Learn the basics and build a strong foundation in programming.",
+        "link": "#",
+        "image": "https://res.cloudinary.com/dzseu61wi/image/upload/c_thumb,w_200,g_face/v1764665979/substring/assets/thumbnails/pexels-harold-vasquez-853421-2653362_qb2cwg.jpg"
+    },
+    {
+        "id": 9,
+        "title": "JS Foundation",
+        "category": "Frontend",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "JavaScript",
+            "ES6+",
+            "DOM",
+            "Async/Await"
+        ],
+        "description": "Master the language of the web. Learn JavaScript from scratch and build interactive websites.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+        "id": 10,
+        "title": "Spring Boot",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Spring Boot",
+            "Microservices",
+            "REST APIs"
+        ],
+        "description": "Deep dive into Spring Boot for building production-ready applications in a classroom setting.",
+        "link": "#",
+        "image": "https://res.cloudinary.com/dzseu61wi/image/upload/c_thumb,w_200,g_face/v1764665802/substring/assets/thumbnails/pexels-goumbik-574071_yv65qx.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Django Framework",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Python",
+            "Django",
+            "ORM",
+            "MVC"
+        ],
+        "description": "Learn to build robust web applications using Python and the Django framework.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+        "id": 12,
+        "title": "Machine Learning",
+        "category": "Data Science",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Python",
+            "ML Algorithms",
+            "Pandas",
+            "Scikit-learn"
+        ],
+        "description": "Step into the world of AI. Learn Machine Learning algorithms and data analysis techniques.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
+        "id": 13,
+        "title": "Data Science",
+        "category": "Data Science",
+        "duration": "Premium",
+        "type": "Offline",
+        "topics": [
+            "Data Analysis",
+            "Visualization",
+            "Statistics"
+        ],
+        "description": "Become a Data Scientist. Learn to analyze, visualize, and interpret complex data.",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2000&auto=format&fit=crop"
+    }
+]

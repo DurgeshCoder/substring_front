@@ -1,0 +1,26 @@
+{
+    "showModal": true,
+    "running": [
+        {
+            "id": "java-master-running",
+            "courseName": "AI powered Java Backend",
+            "startDate": "Started 9th Nov",
+            "time": "9:00 PM IST, Every Tuesday, Thursday and Saturday",
+            "price": "₹3599",
+            "discountedPrice": "₹3449",
+            "offer": "Limited Seats Left, use Coupon CODE LCWD100",
+            "link": "https://wa.me/919839466732?text=Hi, I want to join AI Powered Java Backend Batch"
+        },
+        {
+            "id": "mern-stack-upcoming",
+            "courseName": "WebX Batch- AI powered web development",
+            "startDate": "25th Nov 2025",
+            "time": "9:00 PM IS T, Every Monday, Wednesday and Friday",
+            "price": "₹3899",
+            "discountedPrice": "₹3749",
+            "offer": "Limited Seats Left, use Coupon CODE LCWD100",
+            "link": "https://wa.me/919839466732?text=Hi, I want to join WebX Batch"
+        }
+    ],
+    "upcoming": []
+}
