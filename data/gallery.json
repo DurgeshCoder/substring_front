@@ -1,0 +1,102 @@
+{
+    "categories": [
+        "All",
+        "Events",
+        "Office",
+        "Team",
+        "Workshops"
+    ],
+    "galleryItems": [
+        {
+            "id": -2,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754781/substring/gallery/IMG_1180_oldmxa.jpg",
+            "category": "Events",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": -1,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754770/substring/gallery/IMG_7063_byw86j.jpg",
+            "category": "Events",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 0,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754771/substring/gallery/IMG_7062_ebvbyr.jpg",
+            "category": "Events",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 1,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754782/substring/gallery/IMG_1182_ugvwz8.jpg",
+            "category": "Events",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 2,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754798/substring/gallery/IMG_0613_srdloc.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 3,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754801/substring/gallery/IMG_0620_lhneyc.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 4,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754777/substring/gallery/IMG_0605_jqsccj.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 5,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754770/substring/gallery/IMG_7064_fyetva.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 6,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754772/substring/gallery/IMG_1551_tang35.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 7,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754794/substring/gallery/IMG_8782_hgwl7n.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 8,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754795/substring/gallery/IMG_8845_iodjfp.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 9,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754789/substring/gallery/IMG_1564_2_zeshbu.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        },
+        {
+            "id": 10,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754790/substring/gallery/IMG_1566_2_ivk06c.jpg",
+            "category": "Workshops",
+            "title": "Team Collaboration",
+            "size": "large"
+        }
+    ]
+}
