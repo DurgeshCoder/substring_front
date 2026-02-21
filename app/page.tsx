@@ -1,4 +1,5 @@
 import { Hero } from "@/components/sections/Hero";
+import { PromoVideo } from "@/components/sections/PromoVideo";
 import { About } from "@/components/sections/About";
 import { Training } from "@/components/sections/Training";
 import { Services } from "@/components/sections/Services";
@@ -23,8 +24,10 @@ export default function Home() {
     <main className="min-h-screen relative overflow-hidden">
       <RetroGrid />
       <Hero />
+      <PromoVideo />
       <Technologies />
       <About />
+
       <Achievements />
       <PlacementPartners />
       <Training limit={3} />
