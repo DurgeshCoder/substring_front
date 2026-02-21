@@ -6,20 +6,23 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { X, ZoomIn, ChevronLeft, ChevronRight, LayoutGrid } from "lucide-react";
 
-import galleryData from "@/data/gallery.json";
-
-const { categories, galleryItems } = galleryData;
 
 // Group items by category, disregarding "All"
-const groupedGallery = categories
-    .filter((c) => c !== "All")
-    .map((category) => ({
-        category,
-        items: galleryItems.filter((item) => item.category === category),
-    }))
-    .filter((group) => group.items.length > 0);
 
-export function Gallery() {
+
+export function Gallery({ galleryData }: { galleryData: any }) {
+
+
+    const { categories, galleryItems } = galleryData;
+    const groupedGallery = categories
+        .filter((c: any) => c !== "All")
+        .map((category: any) => ({
+            category,
+            items: galleryItems.filter((item: any) => item.category === category),
+        }))
+        .filter((group: any) => group.items.length > 0);
+
+
     const [lightboxItems, setLightboxItems] = useState<typeof galleryItems>([]);
     const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
@@ -106,7 +109,7 @@ export function Gallery() {
 
                 <div className="space-y-24 max-w-8xl mx-auto">
                     {/* Render Category Blocks */}
-                    {groupedGallery.map((group, groupIdx) => (
+                    {groupedGallery.map((group: any, groupIdx: any) => (
                         <motion.div
                             key={group.category}
                             initial={{ opacity: 0, y: 40 }}
@@ -131,7 +134,7 @@ export function Gallery() {
 
                             {/* Grid - Masonry Layout */}
                             <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
-                                {group.items.map((item, index) => (
+                                {group.items.map((item: any, index: any) => (
                                     <motion.div
                                         key={item.id}
                                         initial={{ opacity: 0, scale: 0.95 }}

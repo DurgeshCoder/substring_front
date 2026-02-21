@@ -15,3 +15,4 @@ export interface Course {
 export const courses = coursesData as Course[];
 
 
+

@@ -7,17 +7,19 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { EnquireModal } from "@/components/ui/enquire-modal";
 import { Search, BookOpen } from "lucide-react";
-import { courses } from "./courses-data";
+
 import { OnlineBatches } from "./OnlineBatches";
 import { OfflineBatches } from "./OfflineBatches";
+import { Course } from "./courses-data";
 
 const categories = ["All", "Full Stack", "Backend", "Frontend", "Cloud & DevOps", "Data Science"];
 
 interface TrainingProps {
     limit?: number;
+    courses: Course[];
 }
 
-export function Training({ limit }: TrainingProps) {
+export function Training({ limit, courses }: TrainingProps) {
     const [activeCategory, setActiveCategory] = useState("All");
     const [searchQuery, setSearchQuery] = useState("");
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,15 +30,15 @@ export function Training({ limit }: TrainingProps) {
         setIsModalOpen(true);
     };
 
-    const filteredCourses = courses.filter((course) => {
+    const filteredCourses = courses?.filter((course) => {
         const matchesCategory = activeCategory === "All" || course.category === activeCategory;
         const matchesSearch = course.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
             course.description.toLowerCase().includes(searchQuery.toLowerCase());
         return matchesCategory && matchesSearch;
     });
 
-    const onlineCourses = limit ? filteredCourses.filter(c => c.type === "Online").slice(0, limit) : filteredCourses.filter(c => c.type === "Online");
-    const offlineCourses = limit ? filteredCourses.filter(c => c.type === "Offline").slice(0, limit) : filteredCourses.filter(c => c.type === "Offline");
+    const onlineCourses = limit ? filteredCourses?.filter(c => c.type === "Online").slice(0, limit) : filteredCourses?.filter(c => c.type === "Online");
+    const offlineCourses = limit ? filteredCourses?.filter(c => c.type === "Offline").slice(0, limit) : filteredCourses?.filter(c => c.type === "Offline");
 
     return (
         <section id="training" className="py-24 bg-background relative overflow-hidden">
@@ -60,7 +62,7 @@ export function Training({ limit }: TrainingProps) {
 
                     {limit && (
                         <div className="mt-10">
-                            <Link href="/courses">
+                            <Link href="/training">
                                 <Button size="lg" className="h-14 px-10 text-lg rounded-full shadow-[0_0_30px_rgba(var(--primary),0.3)] hover:shadow-[0_0_50px_rgba(var(--primary),0.5)] transition-all duration-500">
                                     Go to Training
                                 </Button>

@@ -13,13 +13,25 @@ import { PlacementPartners } from "@/components/sections/PlacementPartners";
 import { RetroGrid } from "@/components/ui/retro-grid";
 
 import { Metadata } from "next";
+import { Course } from "@/components/sections/courses-data";
+import { fetchJSON } from "@/helper/fetchHelper";
 
 export const metadata: Metadata = {
   title: "Best Software Training Institute in Lucknow | Learn Code with Durgesh",
   description: "Join Substring Technologies for top-notch software training in Java, Python, Web Development, and more. Kickstart your career with expert guidance.",
 };
 
-export default function Home() {
+export default async function Home() {
+
+  let courses: Course[] = [];
+  try {
+    courses = await fetchJSON("https://raw.githubusercontent.com/DurgeshCoder/substring_front/refs/heads/data/data/courses.json", false);
+
+  } catch (error) {
+    console.error("Error fetching courses:", error);
+  }
+
+
   return (
     <main className="min-h-screen relative overflow-hidden">
       <RetroGrid />
@@ -30,7 +42,7 @@ export default function Home() {
 
       <Achievements />
       <PlacementPartners />
-      <Training limit={3} />
+      <Training courses={courses} limit={3} />
       <WhyChooseUs />
       <Services />
       <Testimonials />

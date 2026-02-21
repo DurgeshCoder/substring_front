@@ -10,25 +10,45 @@ import {
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowRight, Zap, Sparkles } from "lucide-react";
 import Link from "next/link";
-import liveBatchesData from "@/data/live-batches.json";
 
-const liveBatches = liveBatchesData as any;
 
 export function LiveBatchNotice() {
+
+
+
+    const [liveBatches, setLiveBatches] = useState<any>(undefined);
+
+    useEffect(() => {
+        fetch("https://raw.githubusercontent.com/DurgeshCoder/substring_front/refs/heads/data/data/live-batches.json")
+            .then((res) => res.json())
+            .then((data) => setLiveBatches(data))
+            .catch((err) => console.error("Error fetching live batches:", err));
+    }, []);
+
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         // Check configuration and data availability
-        const shouldShow = liveBatches.showModal !== false; // Default to true if missing
-        const hasData = liveBatches.running.length > 0 || liveBatches.upcoming.length > 0;
 
-        if (shouldShow && hasData) {
-            const timer = setTimeout(() => {
-                setIsOpen(true);
-            }, 1500);
-            return () => clearTimeout(timer);
+        if (liveBatches) {
+            const shouldShow = liveBatches.showModal !== false; // Default to true if missing
+            const hasData = liveBatches.running.length > 0 || liveBatches.upcoming.length > 0;
+
+            if (shouldShow && hasData) {
+                const timer = setTimeout(() => {
+                    setIsOpen(true);
+                }, 1500);
+                return () => clearTimeout(timer);
+            }
         }
-    }, []);
+
+    }, [liveBatches]);
+
+
+    if (!liveBatches) {
+        return null;
+    }
+
 
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
