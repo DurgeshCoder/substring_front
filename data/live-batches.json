@@ -1,6 +1,16 @@
 {
-    "showModal": false,
+    "showModal": true,
     "running": [
+           {
+            "id": "git_and_github_mastery",
+            "courseName": "Version Control Mastery with Git and Github",
+            "startDate": "PreRecored Course",
+            "time": "Self Paced",
+            "price": "₹5999",
+            "discountedPrice": "₹699",
+            "offer": "Limited Seats Left, use Coupon CODE LCWD100",
+            "link": "https://courses.learncodewithdurgesh.com/learn/git-and-github-matery-course"
+        },
         {
             "id": "java-master-running",
             "courseName": "AI powered Java Backend",
