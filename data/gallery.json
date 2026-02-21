@@ -1,101 +1,169 @@
 {
     "categories": [
-        "All",
         "Events",
         "Office",
-        "Team",
         "Workshops"
     ],
     "galleryItems": [
         {
-            "id": -2,
-            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754781/substring/gallery/IMG_1180_oldmxa.jpg",
-            "category": "Events",
-            "title": "Team Collaboration",
-            "size": "large"
-        },
-        {
             "id": -1,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754770/substring/gallery/IMG_7063_byw86j.jpg",
-            "category": "Events",
-            "title": "Team Collaboration",
+            "category": "Workshops",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 0,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660987/substring/gallery/srmu/IMG_1145_fd1qni.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University Event",
+            "size": "large"
+        },
+        {
+            "id": 0.11,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754771/substring/gallery/IMG_7062_ebvbyr.jpg",
             "category": "Events",
-            "title": "Team Collaboration",
+            "title": "Amity University",
+            "size": "large"
+        },
+        {
+            "id": 0.1,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/f_auto,q_auto,e_improve,w_1200,c_limit/v1771659741/substring/gallery/amity_university_workshop/4c5ad52d-721a-44d3-997f-57ecdfaeba02_ehqywr.jpg",
+            "category": "Events",
+            "title": "Amity University",
+            "size": "large"
+        },
+        {
+            "id": 0.2,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771659965/substring/gallery/IMG_0627_x5v6ff.jpg",
+            "category": "Events",
+            "title": "Goel Event",
             "size": "large"
         },
         {
             "id": 1,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754782/substring/gallery/IMG_1182_ugvwz8.jpg",
-            "category": "Events",
-            "title": "Team Collaboration",
+            "category": "Workshops",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 2,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754798/substring/gallery/IMG_0613_srdloc.jpg",
             "category": "Workshops",
-            "title": "Team Collaboration",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 3,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754801/substring/gallery/IMG_0620_lhneyc.jpg",
             "category": "Workshops",
-            "title": "Team Collaboration",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 4,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754777/substring/gallery/IMG_0605_jqsccj.jpg",
             "category": "Workshops",
-            "title": "Team Collaboration",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 5,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1764754770/substring/gallery/IMG_7064_fyetva.jpg",
             "category": "Workshops",
-            "title": "Team Collaboration",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 6,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754772/substring/gallery/IMG_1551_tang35.jpg",
-            "category": "Workshops",
-            "title": "Team Collaboration",
+            "category": "Events",
+            "title": "Youtube INDIA Event",
             "size": "large"
         },
         {
             "id": 7,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754794/substring/gallery/IMG_8782_hgwl7n.jpg",
-            "category": "Workshops",
-            "title": "Team Collaboration",
+            "category": "Events",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 8,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754795/substring/gallery/IMG_8845_iodjfp.jpg",
-            "category": "Workshops",
-            "title": "Team Collaboration",
+            "category": "Events",
+            "title": "Event Meetup",
             "size": "large"
         },
         {
             "id": 9,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754789/substring/gallery/IMG_1564_2_zeshbu.jpg",
-            "category": "Workshops",
-            "title": "Team Collaboration",
+            "category": "Events",
+            "title": "Youtube Creator Collective",
             "size": "large"
         },
         {
             "id": 10,
             "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1764754790/substring/gallery/IMG_1566_2_ivk06c.jpg",
-            "category": "Workshops",
-            "title": "Team Collaboration",
+            "category": "Events",
+            "title": "Event Meetup",
+            "size": "large"
+        },
+        {
+            "id": 11,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/f_auto,q_auto,e_improve,w_1200,c_limit/v1771658799/substring/gallery/creator_mixer/creator_mixer_durgesh_sir1_vqiewq.png",
+            "category": "Events",
+            "title": "ClassPlus Creator Mixer Event",
+            "size": "large"
+        },
+        {
+            "id": 12,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/f_auto,q_auto,e_improve,w_1200,c_limit/v1771659295/substring/gallery/creator_mixer/IMG_4857_s0wyn1.jpg",
+            "category": "Events",
+            "title": "ClassPlus Creator Mixer Event",
+            "size": "large"
+        },
+        {
+            "id": 13,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660404/substring/gallery/srmu/IMG_1061_idnzpl.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University",
+            "size": "large"
+        },
+        {
+            "id": 14,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660504/substring/gallery/srmu/IMG_1011_bdkgra.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University",
+            "size": "large"
+        },
+        {
+            "id": 15,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660615/substring/gallery/srmu/IMG_1013_nixtqa.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University",
+            "size": "large"
+        },
+        {
+            "id": 16,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660721/substring/gallery/srmu/image_j7foma.png",
+            "category": "Events",
+            "title": "Ramswaroop University",
+            "size": "large"
+        },
+        {
+            "id": 17,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771660852/substring/gallery/srmu/IMG_1108_d52emp.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University",
+            "size": "large"
+        },
+        {
+            "id": 18,
+            "src": "https://res.cloudinary.com/dzseu61wi/image/upload/v1771661138/substring/gallery/srmu/IMG_1154_zyzfcn.jpg",
+            "category": "Events",
+            "title": "Ramswaroop University",
             "size": "large"
         }
     ]
