@@ -1,5 +1,21 @@
 [
     {
+        "id": 1,
+        "title": "Git and Github Mastery",
+        "category": "Backend",
+        "duration": "Premium",
+        "type": "Online",
+        "topics": [
+            "Git",
+            "Github",
+            "Team Collaboration",
+            "Github Copilot"
+        ],
+        "description": "Learn Git & GitHub practically — push code confidently, collaborate in teams, crack interviews. Learn version control, branching, merging, pull requests, and collaboration used by professional developers in teams. Perfect for beginners and pro developers.",
+        "link": "https://courses.learncodewithdurgesh.com/learn/git-and-github-matery-course",
+        "image": "https://imgproxy-g.learnyst.com/learnyst-user-assets/school-assets/schools/137927/courses/256315/git_and_github__1__lyst1770196717689.png?w=0&h=0&resizetype=fill"
+    },
+    {
         "id": 2,
         "title": "AI-Powered Java Backend Batch",
         "category": "Backend",
