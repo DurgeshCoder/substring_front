@@ -45,12 +45,12 @@ export function Training({ limit, courses }: TrainingProps) {
             <div className="container mx-auto px-4 md:px-6 relative z-10">
                 <div className="text-center mb-16">
                     <div
-                        className="inline-block mb-4 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-medium backdrop-blur-sm"
+                        className="inline-block mb-4 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/8 text-primary text-sm font-medium"
                     >
                         Future-Ready Learning
                     </div>
                     <h2
-                        className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/50"
+                        className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-foreground"
                     >
                         Master the <span className="text-primary">Technologies</span><br />of Tomorrow
                     </h2>
@@ -63,7 +63,7 @@ export function Training({ limit, courses }: TrainingProps) {
                     {limit && (
                         <div className="mt-10">
                             <Link href="/training">
-                                <Button size="lg" className="h-14 px-10 text-lg rounded-full shadow-[0_0_30px_rgba(var(--primary),0.3)] hover:shadow-[0_0_50px_rgba(var(--primary),0.5)] transition-all duration-500">
+                                <Button size="lg" className="h-12 px-8 text-base rounded-xl transition-all duration-200 active:scale-[0.97]">
                                     Go to Training
                                 </Button>
                             </Link>
@@ -74,16 +74,16 @@ export function Training({ limit, courses }: TrainingProps) {
                 {!limit && (
                     <>
                         <div
-                            className="flex flex-col md:flex-row items-center justify-between gap-6 mb-16 p-4 rounded-2xl bg-secondary/30 backdrop-blur-md border border-white/10"
+                            className="flex flex-col md:flex-row items-center justify-between gap-6 mb-16 p-4 rounded-2xl bg-secondary/40 border border-border/50"
                         >
                             <div className="flex flex-wrap justify-center gap-2">
                                 {categories.map((cat) => (
                                     <button
                                         key={cat}
                                         onClick={() => setActiveCategory(cat)}
-                                        className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 ${activeCategory === cat
-                                            ? "bg-primary text-primary-foreground shadow-[0_0_20px_rgba(var(--primary),0.3)] scale-105"
-                                            : "bg-background/50 text-muted-foreground hover:bg-background hover:text-foreground"
+                                        className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${activeCategory === cat
+                                            ? "bg-primary text-primary-foreground shadow-sm"
+                                            : "bg-background/60 text-muted-foreground hover:bg-background hover:text-foreground"
                                             }`}
                                     >
                                         {cat}
@@ -94,7 +94,7 @@ export function Training({ limit, courses }: TrainingProps) {
                                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground w-4 h-4 group-focus-within:text-primary transition-colors" />
                                 <Input
                                     placeholder="Search courses..."
-                                    className="pl-10 h-11 bg-background/50 border-white/10 focus:border-primary/50 focus:bg-background transition-all rounded-xl"
+                                    className="pl-10 h-11 bg-background/60 border-border/50 focus:border-primary/40 focus:bg-background transition-all rounded-xl"
                                     value={searchQuery}
                                     onChange={(e) => setSearchQuery(e.target.value)}
                                 />

@@ -47,10 +47,10 @@ export function Testimonials() {
         <section className="py-24 bg-background relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                        What Our <span className="text-primary">Students Say</span>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+                        Real Stories from <span className="text-primary">Our Students</span>
                     </h2>
-                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
                         Join thousands of successful graduates who have transformed their careers with Substring.
                     </p>
                 </div>

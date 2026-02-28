@@ -46,16 +46,16 @@ export function Services() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-3xl md:text-5xl font-bold mb-4"
+                        className="text-3xl md:text-5xl font-bold mb-6 tracking-tight"
                     >
-                        Our <span className="text-primary">Services</span>
+                        Solutions We <span className="text-primary">Deliver</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="text-muted-foreground text-lg max-w-2xl mx-auto"
+                        className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed"
                     >
                         We offer a comprehensive range of software services to help your business grow and succeed in the digital age.
                     </motion.p>
@@ -71,7 +71,7 @@ export function Services() {
                             transition={{ delay: index * 0.1 }}
                             className="group"
                         >
-                            <div className="relative h-full overflow-hidden rounded-2xl border bg-background p-8 transition-all hover:shadow-lg hover:-translate-y-1">
+                            <div className="relative h-full overflow-hidden rounded-2xl border border-border/50 bg-background p-8 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-primary/20">
                                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
                                 <div className="relative z-10">
                                     <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">

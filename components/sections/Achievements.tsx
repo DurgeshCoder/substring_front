@@ -77,8 +77,16 @@ function Counter({ value, duration = 2 }: { value: number; duration?: number }) 
 
 export function Achievements() {
     return (
-        <section className="py-20 bg-secondary/20 border-y border-border/50">
+        <section className="py-24 bg-secondary/20 border-y border-border/40">
             <div className="container mx-auto px-4 md:px-6">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+                        Our Impact in <span className="text-primary">Numbers</span>
+                    </h2>
+                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+                        Real results that speak louder than words.
+                    </p>
+                </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {achievements.map((item, index) => (
                         <motion.div
@@ -93,7 +101,7 @@ export function Achievements() {
                                 <item.icon className={`w-8 h-8 ${item.color}`} />
                             </div>
 
-                            <div className="text-3xl md:text-4xl font-bold mb-2">
+                            <div className="text-3xl md:text-4xl font-bold mb-2 tracking-tight">
                                 <Counter value={item.value} />{item.suffix}
                             </div>
 

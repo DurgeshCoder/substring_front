@@ -1,6 +1,7 @@
 "use client";
 
 
+import { motion } from "framer-motion";
 import { CheckCircle, Users, Briefcase, Award, Zap, HeartHandshake } from "lucide-react";
 import { MagicCard } from "@/components/ui/magic-card";
 
@@ -43,26 +44,38 @@ export function WhyChooseUs() {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
                             Why Choose <br /> <span className="text-primary">Substring?</span>
                         </h2>
                         <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                             We don't just teach coding; we shape careers. Our holistic approach combines technical depth with professional grooming to create complete software engineers.
                         </p>
-                        <div className="relative h-[400px] w-full rounded-2xl overflow-hidden bg-secondary/30 border border-border">
-                            {/* Abstract Visual Representation */}
-                            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-indigo-500/20" />
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-primary/30 rounded-full blur-[60px] animate-pulse" />
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="text-center p-6 backdrop-blur-sm bg-background/30 rounded-xl border border-white/10">
-                                    <div className="text-4xl font-bold text-primary mb-2">100%</div>
-                                    <div className="text-sm font-medium">Commitment to Excellence</div>
-                                </div>
+                        <div className="relative w-full rounded-2xl overflow-hidden bg-secondary/30 border border-border/50 p-8">
+                            {/* Concrete stats grid instead of abstract blob */}
+                            <div className="grid grid-cols-2 gap-6">
+                                {[
+                                    { value: "95%", label: "Placement Rate" },
+                                    { value: "50+", label: "Hiring Partners" },
+                                    { value: "4.9/5", label: "Student Rating" },
+                                    { value: "10K+", label: "Developers Trained" },
+                                ].map((stat, i) => (
+                                    <motion.div
+                                        key={i}
+                                        initial={{ opacity: 0, y: 10 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: i * 0.1 }}
+                                        className="text-center p-6 rounded-xl bg-background/60 border border-border/40"
+                                    >
+                                        <div className="text-3xl font-bold text-primary mb-1 tracking-tight">{stat.value}</div>
+                                        <div className="text-sm font-medium text-muted-foreground">{stat.label}</div>
+                                    </motion.div>
+                                ))}
                             </div>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
@@ -83,6 +96,6 @@ export function WhyChooseUs() {
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     );
 }

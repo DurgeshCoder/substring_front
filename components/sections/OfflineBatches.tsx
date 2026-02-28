@@ -13,63 +13,60 @@ interface OfflineBatchesProps {
 export function OfflineBatches({ courses, onEnquire }: OfflineBatchesProps) {
     return (
         <div>
-            <div className="flex items-center gap-4 mb-12">
-                <div className="h-12 w-2 bg-gradient-to-b from-purple-500 to-purple-500/20 rounded-full shadow-[0_0_20px_rgba(168,85,247,0.5)]" />
-                <h3 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-                    Classroom <span className="text-purple-500">(Offline)</span> Batches
+            <div className="flex items-center gap-3 mb-10">
+                <div className="h-8 w-1 bg-violet-500 rounded-full" />
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
+                    Classroom <span className="text-violet-500">(Offline)</span> Batches
                 </h3>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {courses.map((course, index) => (
-                    <div
-                        key={course.id}
-                    >
-                        <div className="group relative h-full overflow-hidden rounded-3xl bg-secondary/20 border border-white/5 transition-all duration-500 hover:shadow-[0_0_40px_rgba(168,85,247,0.15)] hover:-translate-y-2 hover:border-purple-500/30">
-                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {courses.map((course) => (
+                    <div key={course.id}>
+                        <div className="group relative h-full overflow-hidden rounded-2xl bg-card border border-border/60 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-violet-500/25">
 
-                            <div className="relative h-56 overflow-hidden">
-                                <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10" />
+                            {/* Image */}
+                            <div className="relative h-48 overflow-hidden">
                                 <img
                                     src={course.image}
                                     alt={course.title}
-                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
-                                <Badge className="absolute top-4 right-4 z-20 backdrop-blur-md bg-background/50 border-white/10 hover:bg-background/80 transition-colors" variant={course.duration === "Premium" ? "default" : "secondary"}>
+                                <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
+                                <Badge className="absolute top-3 right-3 z-10 bg-background/80 backdrop-blur-sm border-border/50 text-foreground text-xs" variant="secondary">
                                     {course.duration}
                                 </Badge>
                             </div>
 
-                            <div className="p-8 relative z-10 flex h-[calc(100%-14rem)] flex-col">
-                                <div className="flex justify-between items-start mb-4">
-                                    <span className="text-xs font-bold px-3 py-1.5 rounded-lg bg-purple-500/10 text-purple-500 border border-purple-500/20 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300">
-                                        {course.category}
-                                    </span>
-                                </div>
+                            {/* Content */}
+                            <div className="p-6 flex flex-col h-[calc(100%-12rem)]">
+                                <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-violet-500/10 text-violet-500 w-fit mb-4">
+                                    {course.category}
+                                </span>
 
-                                <h3 className="mb-3 text-2xl font-bold group-hover:text-purple-500 transition-colors line-clamp-2 leading-tight">
+                                <h3 className="mb-2 text-lg font-bold leading-snug line-clamp-2 group-hover:text-violet-500 transition-colors duration-200">
                                     {course.title}
                                 </h3>
 
-                                <p className="mb-6 text-sm text-muted-foreground line-clamp-3 leading-relaxed group-hover:text-foreground/80 transition-colors">
+                                <p className="mb-5 text-sm text-muted-foreground line-clamp-2 leading-relaxed">
                                     {course.description}
                                 </p>
 
                                 <div className="mt-auto">
-                                    <div className="flex flex-wrap gap-2 mb-6">
+                                    <div className="flex flex-wrap gap-1.5 mb-5">
                                         {course.topics.slice(0, 3).map((topic) => (
-                                            <Badge key={topic} variant="outline" className="text-xs bg-background/30 border-white/10 group-hover:border-purple-500/20 transition-colors">
+                                            <Badge key={topic} variant="outline" className="text-xs border-border/60 bg-secondary/30 font-normal">
                                                 {topic}
                                             </Badge>
                                         ))}
                                         {course.topics.length > 3 && (
-                                            <Badge variant="outline" className="text-xs bg-background/30 border-white/10">+{course.topics.length - 3}</Badge>
+                                            <Badge variant="outline" className="text-xs border-border/60 bg-secondary/30 font-normal">+{course.topics.length - 3}</Badge>
                                         )}
                                     </div>
 
                                     <Button
                                         variant="outline"
-                                        className="w-full h-12 rounded-xl bg-transparent border-white/10 hover:bg-purple-500 hover:text-white hover:border-purple-500 transition-all duration-300 shadow-none group-hover:shadow-[0_0_20px_rgba(168,85,247,0.3)]"
+                                        className="w-full h-11 rounded-xl border-border/60 hover:bg-violet-500 hover:text-white hover:border-violet-500 transition-all duration-200"
                                         onClick={() => onEnquire(course.title)}
                                     >
                                         Enquire Now

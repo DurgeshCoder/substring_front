@@ -22,7 +22,7 @@ export function Community() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-3xl md:text-5xl font-bold mb-4"
+                        className="text-3xl md:text-5xl font-bold mb-6 tracking-tight"
                     >
                         Join Our <span className="text-primary">Community</span>
                     </motion.h2>
@@ -31,7 +31,7 @@ export function Community() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
-                        className="text-muted-foreground text-lg max-w-2xl mx-auto"
+                        className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed"
                     >
                         Be part of a growing network of developers. Learn, share, and grow together across all our platforms.
                     </motion.p>

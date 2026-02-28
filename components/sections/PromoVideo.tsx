@@ -6,7 +6,7 @@ export function PromoVideo() {
     return (
         <section className="py-24 bg-background relative overflow-hidden">
             {/* Subtle background glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-[400px] opacity-20 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-[400px] opacity-10 pointer-events-none">
                 <div className="absolute inset-0 bg-primary blur-[120px] rounded-full" />
             </div>
 
@@ -25,7 +25,7 @@ export function PromoVideo() {
                             </span>
                             Watch How We Build
                         </div>
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-b from-foreground to-foreground/50">
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight bg-clip-text text-transparent bg-linear-to-b from-foreground to-foreground/50">
                             See Substring Technologies <span className="text-primary">in Action</span>
                         </h2>
                         <p className="text-muted-foreground text-lg leading-relaxed">

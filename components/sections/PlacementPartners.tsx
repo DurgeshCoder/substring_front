@@ -21,7 +21,7 @@ const CompanyCard = ({ name }: { name: string }) => {
 
 export function PlacementPartners() {
     return (
-        <section className="py-20 bg-background overflow-hidden">
+        <section className="py-16 bg-secondary/20 overflow-hidden border-y border-border/40">
             <div className="container mx-auto px-4 mb-12 text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
@@ -29,7 +29,7 @@ export function PlacementPartners() {
                     viewport={{ once: true }}
                     className="text-3xl md:text-4xl font-bold mb-4"
                 >
-                    Top Companies <span className="text-primary">Our Students Work At</span>
+                    Top Companies <span className="text-primary">Our Graduates Work At</span>
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
