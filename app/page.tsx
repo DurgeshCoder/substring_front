@@ -47,7 +47,7 @@ export default async function Home() {
       <Technologies />
 
       {/* 5. The Solution */}
-      <Training courses={courses} limit={3} />
+      <Training  limit={3} />
 
       {/* 6. How We Work */}
       <Process />

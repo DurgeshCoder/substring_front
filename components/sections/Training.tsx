@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
@@ -11,15 +11,44 @@ import { Search, BookOpen } from "lucide-react";
 import { OnlineBatches } from "./OnlineBatches";
 import { OfflineBatches } from "./OfflineBatches";
 import { Course } from "./courses-data";
+import { getCoursesData } from "@/helper/apiService";
 
 const categories = ["All", "Full Stack", "Backend", "Frontend", "Cloud & DevOps", "Data Science"];
 
 interface TrainingProps {
     limit?: number;
-    courses: Course[];
 }
 
-export function Training({ limit, courses }: TrainingProps) {
+export function Training({ limit }: TrainingProps) {
+
+
+    const [courses, setCourses] = useState<Course[]>([]);
+
+    useEffect(() => {
+        
+
+
+
+        async function loadCourses(){
+            try {
+                const response= await getCoursesData()
+                console.log(response)
+                setCourses(response)
+            } catch (error) {
+                console.log(error)
+            
+            }
+
+         
+
+        }
+           loadCourses()
+
+
+    }, [limit]);
+
+
+
     const [activeCategory, setActiveCategory] = useState("All");
     const [searchQuery, setSearchQuery] = useState("");
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,6 +68,13 @@ export function Training({ limit, courses }: TrainingProps) {
 
     const onlineCourses = limit ? filteredCourses?.filter(c => c.type === "Online").slice(0, limit) : filteredCourses?.filter(c => c.type === "Online");
     const offlineCourses = limit ? filteredCourses?.filter(c => c.type === "Offline").slice(0, limit) : filteredCourses?.filter(c => c.type === "Offline");
+
+
+    if(courses?.length==0){
+        return (<div>
+            <h1 className="text-center my-3">Loading..</h1>
+        </div>)
+    }
 
     return (
         <section id="training" className="py-24 bg-background relative overflow-hidden">
@@ -104,7 +140,7 @@ export function Training({ limit, courses }: TrainingProps) {
                         <OnlineBatches courses={onlineCourses} />
                         <OfflineBatches courses={offlineCourses} onEnquire={handleEnquire} />
 
-                        {filteredCourses.length === 0 && (
+                        {filteredCourses?.length === 0 && (
                             <div className="text-center py-20 text-muted-foreground bg-secondary/20 rounded-3xl border border-dashed border-white/10">
                                 <BookOpen className="w-16 h-16 mx-auto mb-4 opacity-20" />
                                 <p className="text-xl font-medium">No courses found matching your criteria.</p>

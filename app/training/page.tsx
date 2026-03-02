@@ -12,20 +12,13 @@ export const metadata: Metadata = {
 
 export default async function CoursesPage() {
 
-    let courses: Course[] = [];
-    try {
-        courses = await fetchJSON("https://raw.githubusercontent.com/DurgeshCoder/substring_front/refs/heads/data/data/courses.json", false);
-
-    } catch (error) {
-        console.error("Error fetching courses:", error);
-    }
 
 
 
     return (
         <main className="min-h-screen bg-background">
             <div className="pt-20">
-                <Training courses={courses} />
+                <Training  />
             </div>
         </main>
     );
