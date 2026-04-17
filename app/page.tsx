@@ -13,14 +13,30 @@ import { PlacementPartners } from "@/components/sections/PlacementPartners";
 import { Process } from "@/components/sections/Process";
 import { FAQ } from "@/components/sections/FAQ";
 import { CallToAction } from "@/components/sections/CallToAction";
+import { Projects } from "@/components/sections/Projects";
 
 import { Metadata } from "next";
 import { Course } from "@/components/sections/courses-data";
 import { fetchJSON } from "@/helper/fetchHelper";
 
 export const metadata: Metadata = {
-  title: "Best Software Training Institute in Lucknow | Substring Technologies | Learn Code with Durgesh",
-  description: "Join Substring Technologies for top-notch software training in Java, Python, Web Development, and more. Kickstart your career with expert guidance.",
+  title: "Best Software Training Institute & Development Company in Lucknow | Substring Technologies",
+  description: "Substring Technologies is widely recognized as the best software development company in Lucknow and the best software training institute in Lucknow. We design powerful digital products and deliver expert IT training.",
+  keywords: [
+    "best software training institute in lucknow",
+    "best software development company lucknow",
+    "software training lucknow",
+    "top IT company in lucknow",
+    "Java training lucknow",
+    "Web development agency lucknow",
+    "Learn Code with Durgesh"
+  ],
+  openGraph: {
+    title: "Best Software Training & Development Company in Lucknow",
+    description: "Looking for the best software training institute in Lucknow or a cutting-edge software development company? Substring Technologies is your destination.",
+    url: "https://substringtechnologies.com",
+    type: "website",
+  }
 };
 
 export default async function Home() {
@@ -57,6 +73,9 @@ export default async function Home() {
 
       {/* 8. Services We Offer */}
       <Services />
+
+      {/* 8.5. Featured Development Projects */}
+      <Projects limit={3} showExploreMore={true} />
 
       {/* 9. Social Proof (Numbers) */}
       <Achievements />

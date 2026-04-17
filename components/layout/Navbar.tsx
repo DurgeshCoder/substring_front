@@ -22,14 +22,13 @@ import Image from "next/image";
 const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-
+    { name: "Development", href: "/development" },
     { name: "Training", href: "/training" },
     { name: "Gallery", href: "/gallery" },
     { name: "Blogs", href: "/blogs" },
     { name: "Services", href: "/services" },
     { name: "Contact", href: "/contact" },
     { name: "Openings", href: "/careers" },
-
 ];
 
 export function Navbar() {

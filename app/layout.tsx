@@ -14,25 +14,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://substringtechnologies.com"),
   title: {
-    default: "Substring Technologies | Best Software Training & Development Company",
+    default: "Substring Technologies | Best Software Development Company in Lucknow",
     template: "%s | Substring Technologies",
   },
-  description: "Master coding with Substring Technologies. We offer industry-leading training in Java, Spring Boot, MERN Stack, and more. Led by Durgesh Tiwari.",
-  keywords: ["coding", "programming", "java course", "spring boot", "mern stack", "learn code with durgesh", "software training lucknow", "best coding institute", "durgesh tiwari", "substring technologies"],
+  description: "Recognized as the best software development company in Lucknow and the best software training institute in Lucknow, we build premium tech solutions and offer elite training.",
+  keywords: [
+    "best software training institute in lucknow",
+    "best software development company lucknow",
+    "software training lucknow",
+    "IT agency lucknow",
+    "java spring boot course",
+    "mern stack training lucknow",
+    "learn code with durgesh",
+    "durgesh tiwari coding",
+    "substring technologies"
+  ],
   authors: [{ name: "Durgesh Tiwari" }],
   creator: "Substring Technologies",
   publisher: "Substring Technologies",
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     url: "https://substringtechnologies.com",
-    title: "Substring Technologies | Best Software Training & Development Company",
-    description: "Empowering Developers & Businesses with Modern Software Engineering. Expert-led training and premium software development services.",
+    title: "Substring Technologies | Top Software Agency & Training in Lucknow",
+    description: "Partner with the best software development company in Lucknow. We build highly scalable SaaS products and lead as the best software training institute.",
     siteName: "Substring Technologies",
     images: [
       {
-        url: "/og-image.jpg", // Assuming an OG image exists or will be added, good practice to have the tag
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Substring Technologies",
@@ -41,9 +52,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Substring Technologies | Best Software Training & Development Company",
-    description: "Empowering Developers & Businesses with Modern Software Engineering.",
-    creator: "@durgesh_tiwari", // Placeholder or actual handle if known
+    title: "Best IT Company & Training Institute in Lucknow | Substring Technologies",
+    description: "Empowering Developers & Businesses with Modern Software Engineering. We are Lucknow's top IT experts.",
+    creator: "@durgesh_tiwari",
   },
   robots: {
     index: true,
